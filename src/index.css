@@ -9,4 +9,6 @@ body,
   padding: 0;
   background-color: #ffffff;
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem; 
 }

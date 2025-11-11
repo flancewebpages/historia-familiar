@@ -10,7 +10,8 @@ function App() {
   return (
     <>
       <TopBar />
-      <main className="scroll-smooth">
+      {/* 🔹 espacio para que la barra fija no tape las secciones */}
+      <main>
         <Section1 />
         <Section2 />
         <Section3 />
@@ -18,6 +19,7 @@ function App() {
         <Section5 />
         <Section6 />
       </main>
+
     </>
   );
 }
